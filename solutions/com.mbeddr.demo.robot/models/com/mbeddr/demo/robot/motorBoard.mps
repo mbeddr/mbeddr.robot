@@ -223,6 +223,9 @@
       <concept id="3788988821852026523" name="com.mbeddr.core.modules.structure.GlobalConstantRef" flags="ng" index="4ZOvp">
         <reference id="3376775282622611130" name="constant" index="2DPCA0" />
       </concept>
+      <concept id="1028666136487545270" name="com.mbeddr.core.modules.structure.CommentModuleContent" flags="ng" index="2B_Gvg">
+        <child id="1028666136487550078" name="text" index="2B_H8o" />
+      </concept>
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
       </concept>
@@ -626,6 +629,18 @@
   </node>
   <node concept="N3F5e" id="6ySuXqN_am_">
     <property role="TrG5h" value="main" />
+    <node concept="2B_Gvg" id="emA00_CrUu" role="N3F5h">
+      <node concept="OjmMv" id="emA00_CrUw" role="2B_H8o">
+        <node concept="19SGf9" id="emA00_CrUx" role="OjmMu">
+          <node concept="19SUe$" id="emA00_CrUy" role="19SJt6">
+            <property role="19SUeA" value="The arduino robot consists of two micro controllers each on its own board, the control and the motor board. They communicate over a connection between the hardware UART units.&#10;&#10;This is the implementation for the motor board. It is connected to&#10;- two motors, each with two PWM channels (the H-bridge of the motor driver requires separate inputs for forward and backward rotation).&#10;- two optical fork photosensors to measure the speed of the wheels (a slotted disk is attached to the wheels).&#10;- a radio receiver module for commands from the remote control&#10;&#10;The control board sends setpoints for the speed of the wheels. The task of motor board is, to let the wheels spin with the given speed. It uses the optical sensors and PID controllers to control the power of the motors. " />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00A5gum" role="N3F5h">
+      <property role="TrG5h" value="empty_1440410043650_4" />
+    </node>
     <node concept="4WHVk" id="5MdZHRtDYnI" role="N3F5h">
       <property role="TrG5h" value="TIMER_FREQUENCY" />
       <node concept="CIdvy" id="5MdZHRtDYnJ" role="2DQcEM">

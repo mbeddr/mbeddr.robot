@@ -92,6 +92,14 @@
         <reference id="2093108837558124071" name="var" index="3ZVs_2" />
       </concept>
     </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="2d7fadf5-33f6-4e80-a78f-0f739add2bde" name="com.mbeddr.core.buildconfig">
       <concept id="5046689135693761556" name="com.mbeddr.core.buildconfig.structure.Binary" flags="ng" index="2eOfOj">
         <child id="5046689135693761559" name="referencedModules" index="2eOfOg" />
@@ -146,6 +154,9 @@
       </concept>
     </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
+      <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
+        <child id="8375407818529178007" name="text" index="OjmMu" />
+      </concept>
       <concept id="4459718605982007337" name="com.mbeddr.core.base.structure.IConfigurationContainer" flags="ng" index="2Q9xDo">
         <child id="4459718605982007338" name="configurationItems" index="2Q9xDr" />
       </concept>
@@ -157,6 +168,9 @@
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
       <concept id="3788988821852026523" name="com.mbeddr.core.modules.structure.GlobalConstantRef" flags="ng" index="4ZOvp">
         <reference id="3376775282622611130" name="constant" index="2DPCA0" />
+      </concept>
+      <concept id="1028666136487545270" name="com.mbeddr.core.modules.structure.CommentModuleContent" flags="ng" index="2B_Gvg">
+        <child id="1028666136487550078" name="text" index="2B_H8o" />
       </concept>
       <concept id="8105003328814797298" name="com.mbeddr.core.modules.structure.IFunctionLike" flags="ng" index="2H9T1B">
         <child id="5708867820623310661" name="arguments" index="1UOdpc" />
@@ -471,8 +485,20 @@
   </node>
   <node concept="N3F5e" id="6ySuXqN_am_">
     <property role="TrG5h" value="main" />
-    <node concept="2NXPZ9" id="6ySuXqN_aBx" role="N3F5h">
-      <property role="TrG5h" value="empty_1435839935739_5" />
+    <node concept="2B_Gvg" id="emA00A5_70" role="N3F5h">
+      <node concept="OjmMv" id="emA00A5_72" role="2B_H8o">
+        <node concept="19SGf9" id="emA00A5_73" role="OjmMu">
+          <node concept="19SUe$" id="emA00A5_74" role="19SJt6">
+            <property role="19SUeA" value="This board is the remote control for the robot. It is connected to it with a pair of radio modules. There is a transmitter and a receiver module, which means the communication is unidirectional.&#10;&#10;The board has&#10;- four buttons. Three of them are used to set the mode of the robot.&#10;- a slide potentiometer to set the heading, if in COMPASS mode.&#10;- a joystick to set the speed and direction, if in MANUAL mode." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00A5yVm" role="N3F5h">
+      <property role="TrG5h" value="empty_1440411716619_5" />
+    </node>
+    <node concept="2NXPZ9" id="emA00A5zYB" role="N3F5h">
+      <property role="TrG5h" value="empty_1440411716770_6" />
     </node>
     <node concept="N3Fnx" id="exHFgzLFdS" role="N3F5h">
       <property role="TrG5h" value="main" />
