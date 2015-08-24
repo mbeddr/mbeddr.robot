@@ -3799,6 +3799,18 @@
   </node>
   <node concept="N3F5e" id="5zHWU$GzThY">
     <property role="TrG5h" value="Chassis" />
+    <node concept="2B_Gvg" id="emA00Ap0bE" role="N3F5h">
+      <node concept="OjmMv" id="emA00Ap0bG" role="2B_H8o">
+        <node concept="19SGf9" id="emA00Ap0bH" role="OjmMu">
+          <node concept="19SUe$" id="emA00Ap0bI" role="19SJt6">
+            <property role="19SUeA" value="The chassis is used to coordinate the wheels. You can set the forward and rotational speed on the chassis, that calculates and sets the individual speeds of the wheels." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00A5F05" role="N3F5h">
+      <property role="TrG5h" value="empty_1440412195982_8" />
+    </node>
     <node concept="4WHVk" id="1a4kF8yJZm6" role="N3F5h">
       <property role="TrG5h" value="PI" />
       <property role="2OOxQR" value="true" />
@@ -4730,6 +4742,15 @@
     </node>
     <node concept="2NXPZ9" id="5MdZHRvRQ2S" role="N3F5h">
       <property role="TrG5h" value="empty_1438932187772_9" />
+    </node>
+    <node concept="2B_Gvg" id="emA00Ap7qe" role="N3F5h">
+      <node concept="OjmMv" id="emA00Ap7qg" role="2B_H8o">
+        <node concept="19SGf9" id="emA00Ap7qh" role="OjmMu">
+          <node concept="19SUe$" id="emA00Ap7qi" role="19SJt6">
+            <property role="19SUeA" value="The motor board doesn't control the speed of the wheels, but the position. The virtual wheels is used to calculate the setpoint for the position." />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2EWCuY" id="7tTb7FuPgGx" role="N3F5h">
       <property role="2OOxQR" value="true" />

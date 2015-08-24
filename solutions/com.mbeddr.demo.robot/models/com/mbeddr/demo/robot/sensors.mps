@@ -91,6 +91,9 @@
       <concept id="3788988821852026523" name="com.mbeddr.core.modules.structure.GlobalConstantRef" flags="ng" index="4ZOvp">
         <reference id="3376775282622611130" name="constant" index="2DPCA0" />
       </concept>
+      <concept id="1028666136487545270" name="com.mbeddr.core.modules.structure.CommentModuleContent" flags="ng" index="2B_Gvg">
+        <child id="1028666136487550078" name="text" index="2B_H8o" />
+      </concept>
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
       </concept>
@@ -312,8 +315,17 @@
   </registry>
   <node concept="N3F5e" id="2XT_MLH7wza">
     <property role="TrG5h" value="Compass" />
-    <node concept="2NXPZ9" id="2XT_MLH7Bxl" role="N3F5h">
-      <property role="TrG5h" value="empty_1436530022963_30" />
+    <node concept="2B_Gvg" id="emA00ApeNm" role="N3F5h">
+      <node concept="OjmMv" id="emA00ApeNo" role="2B_H8o">
+        <node concept="19SGf9" id="emA00ApeNp" role="OjmMu">
+          <node concept="19SUe$" id="emA00ApeNq" role="19SJt6">
+            <property role="19SUeA" value="Components for the compass on the arduino robot control board" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00Ape1Z" role="N3F5h">
+      <property role="TrG5h" value="empty_1440415437307_22" />
     </node>
     <node concept="2EX0iR" id="2XT_MLH7BxQ" role="N3F5h">
       <property role="2OOxQR" value="true" />
@@ -1143,6 +1155,18 @@
   </node>
   <node concept="N3F5e" id="74TmcPlYw9Y">
     <property role="TrG5h" value="UltrasoundDistanceSensor" />
+    <node concept="2B_Gvg" id="emA00Apnxn" role="N3F5h">
+      <node concept="OjmMv" id="emA00Apnxp" role="2B_H8o">
+        <node concept="19SGf9" id="emA00Apnxq" role="OjmMu">
+          <node concept="19SUe$" id="emA00Apnxr" role="19SJt6">
+            <property role="19SUeA" value="Components for the HC-SR04 ultrasound distance sensor modules" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00ApldF" role="N3F5h">
+      <property role="TrG5h" value="empty_1440415578684_26" />
+    </node>
     <node concept="2EX0iR" id="74TmcPkGuVg" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="IDistanceSensor" />
@@ -2764,8 +2788,20 @@
   </node>
   <node concept="N3F5e" id="2Z$TrjKDVWq">
     <property role="TrG5h" value="Potentiometer" />
-    <node concept="2NXPZ9" id="2Z$TrjKDW0x" role="N3F5h">
-      <property role="TrG5h" value="empty_1437994506086_13" />
+    <node concept="2B_Gvg" id="emA00ApgOY" role="N3F5h">
+      <node concept="OjmMv" id="emA00ApgP0" role="2B_H8o">
+        <node concept="19SGf9" id="emA00ApgP1" role="OjmMu">
+          <node concept="19SUe$" id="emA00ApgP2" role="19SJt6">
+            <property role="19SUeA" value="Self calibrating components for analog inputs. They return a relativ floating point value." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00ApfJK" role="N3F5h">
+      <property role="TrG5h" value="empty_1440415484162_23" />
+    </node>
+    <node concept="2NXPZ9" id="emA00Apgc_" role="N3F5h">
+      <property role="TrG5h" value="empty_1440415484289_24" />
     </node>
     <node concept="2EX0iR" id="2Z$TrjKDW1m" role="N3F5h">
       <property role="2OOxQR" value="true" />

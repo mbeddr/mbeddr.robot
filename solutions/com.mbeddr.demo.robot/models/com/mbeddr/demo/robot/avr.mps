@@ -274,7 +274,7 @@
       <node concept="OjmMv" id="74TmcPjVX9D" role="2B_H8o">
         <node concept="19SGf9" id="74TmcPjVX9E" role="OjmMu">
           <node concept="19SUe$" id="74TmcPjVX9F" role="19SJt6">
-            <property role="19SUeA" value="This implements only what is required for the arduino robot motor board" />
+            <property role="19SUeA" value="This implements only what is required for the arduino robot motor board.&#10;&#10;The timers are used to&#10;- generate the PWM signal for the motors&#10;- generate a periodic interrupt for the radio modules and the ultrasound distance sensor&#10;- measure time in the counter mode" />
           </node>
         </node>
       </node>

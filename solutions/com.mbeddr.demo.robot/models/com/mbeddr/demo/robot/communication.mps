@@ -400,11 +400,11 @@
   </registry>
   <node concept="N3F5e" id="oDdAT4ofk7">
     <property role="TrG5h" value="UART" />
-    <node concept="2B_Gvg" id="2t4Dw6aEG7X" role="N3F5h">
-      <node concept="OjmMv" id="2t4Dw6aEG7Z" role="2B_H8o">
-        <node concept="19SGf9" id="2t4Dw6aEG80" role="OjmMu">
-          <node concept="19SUe$" id="2t4Dw6aEG81" role="19SJt6">
-            <property role="19SUeA" value="This works only on the ATmega32u4" />
+    <node concept="2B_Gvg" id="emA00Aoi16" role="N3F5h">
+      <node concept="OjmMv" id="emA00Aoi17" role="2B_H8o">
+        <node concept="19SGf9" id="emA00Aoi18" role="OjmMu">
+          <node concept="19SUe$" id="emA00Aoi19" role="19SJt6">
+            <property role="19SUeA" value="Component for the USART module of the AVR micro controller.&#10;Works only on the ATmega32u4." />
           </node>
         </node>
       </node>
@@ -2000,8 +2000,20 @@
   </node>
   <node concept="N3F5e" id="wYuX6q6qMN">
     <property role="TrG5h" value="TWI" />
-    <node concept="2NXPZ9" id="2XT_MLHaS6X" role="N3F5h">
-      <property role="TrG5h" value="empty_1436533175021_40" />
+    <node concept="2B_Gvg" id="emA00Ao3Du" role="N3F5h">
+      <node concept="OjmMv" id="emA00Ao3Dw" role="2B_H8o">
+        <node concept="19SGf9" id="emA00Ao3Dx" role="OjmMu">
+          <node concept="19SUe$" id="emA00Ao3Dy" role="19SJt6">
+            <property role="19SUeA" value="Component for the I2C module of the AVR micro controller" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00AnTB4" role="N3F5h">
+      <property role="TrG5h" value="empty_1440413870940_10" />
+    </node>
+    <node concept="2NXPZ9" id="emA00AnX5t" role="N3F5h">
+      <property role="TrG5h" value="empty_1440413871158_11" />
     </node>
     <node concept="1O_wwk" id="2XT_MLHaZfi" role="N3F5h">
       <property role="TrG5h" value="TWI_vect" />
@@ -6643,6 +6655,18 @@
   </node>
   <node concept="N3F5e" id="wYuX6q79Oi">
     <property role="TrG5h" value="Interrupts" />
+    <node concept="2B_Gvg" id="emA00AoHJ8" role="N3F5h">
+      <node concept="OjmMv" id="emA00AoHJa" role="2B_H8o">
+        <node concept="19SGf9" id="emA00AoHJb" role="OjmMu">
+          <node concept="19SUe$" id="emA00AoHJc" role="19SJt6">
+            <property role="19SUeA" value="mbeddr has no support for binding of interrupt runnables of internal component instances in composite components.&#10;Therefore, the top component has a runnable for each interrupt that manually delegates to the components providing this interface." />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00AoF_p" role="N3F5h">
+      <property role="TrG5h" value="empty_1440414045200_17" />
+    </node>
     <node concept="2EX0iR" id="2uTv4B9$nLa" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="IInterruptServiceRoutine" />
@@ -6897,8 +6921,14 @@
     <node concept="2NXPZ9" id="74TmcPjUmev" role="N3F5h">
       <property role="TrG5h" value="empty_1436779429942_11" />
     </node>
-    <node concept="2NXPZ9" id="WklGGZnMYB" role="N3F5h">
-      <property role="TrG5h" value="empty_1436971060286_5" />
+    <node concept="2B_Gvg" id="emA00AoLq1" role="N3F5h">
+      <node concept="OjmMv" id="emA00AoLq3" role="2B_H8o">
+        <node concept="19SGf9" id="emA00AoLq4" role="OjmMu">
+          <node concept="19SUe$" id="emA00AoLq5" role="19SJt6">
+            <property role="19SUeA" value="This is lowest layer of the radio protocol. It reads the input pin and generates a bit stream / writes a bit stream to the output pin.&#10;" />
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2NXPZ9" id="WklGGZnNLH" role="N3F5h">
       <property role="TrG5h" value="empty_1436971082112_7" />
@@ -7109,14 +7139,8 @@
         <property role="2hmy$m" value="3" />
       </node>
     </node>
-    <node concept="2B_Gvg" id="2Z$TrjNbyI9" role="N3F5h">
-      <node concept="OjmMv" id="2Z$TrjNbyIb" role="2B_H8o">
-        <node concept="19SGf9" id="2Z$TrjNbyIc" role="OjmMu">
-          <node concept="19SUe$" id="2Z$TrjNbyId" role="19SJt6">
-            <property role="19SUeA" value="If sender and receiver do not share the same clock source, but the clock frequency is close together" />
-          </node>
-        </node>
-      </node>
+    <node concept="2NXPZ9" id="emA00AoM0R" role="N3F5h">
+      <property role="TrG5h" value="empty_1440414715866_18" />
     </node>
     <node concept="2EWCuY" id="2Z$TrjNbyFt" role="N3F5h">
       <property role="2OOxQR" value="true" />
@@ -7331,6 +7355,18 @@
   </node>
   <node concept="N3F5e" id="WklGGZzB8_">
     <property role="TrG5h" value="Stream" />
+    <node concept="2B_Gvg" id="emA00AoAHh" role="N3F5h">
+      <node concept="OjmMv" id="emA00AoAHj" role="2B_H8o">
+        <node concept="19SGf9" id="emA00AoAHk" role="OjmMu">
+          <node concept="19SUe$" id="emA00AoAHl" role="19SJt6">
+            <property role="19SUeA" value="Interfaces for use between the layers of the radio protocol" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00Ao$3J" role="N3F5h">
+      <property role="TrG5h" value="empty_1440413971984_15" />
+    </node>
     <node concept="2EX0iR" id="74TmcPjUr4S" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="IOutputStream" />
@@ -8019,8 +8055,17 @@
   </node>
   <node concept="N3F5e" id="WklGGZzKA7">
     <property role="TrG5h" value="Manchester" />
-    <node concept="2NXPZ9" id="WklGGZoRoR" role="N3F5h">
-      <property role="TrG5h" value="empty_1436972816931_8" />
+    <node concept="2B_Gvg" id="emA00AnKcV" role="N3F5h">
+      <node concept="OjmMv" id="emA00AnKcX" role="2B_H8o">
+        <node concept="19SGf9" id="emA00AnKcY" role="OjmMu">
+          <node concept="19SUe$" id="emA00AnKcZ" role="19SJt6">
+            <property role="19SUeA" value="The radio receiver module adjust its sensitivity automatically to the signal it receives. That requires regular changes on the input pin of the transmitter. The manchester encoding is used to ensure these changes. " />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00AnIG2" role="N3F5h">
+      <property role="TrG5h" value="empty_1440413406858_9" />
     </node>
     <node concept="2EWCuY" id="6tw98Xd46RD" role="N3F5h">
       <property role="2OOxQR" value="true" />
@@ -9282,7 +9327,7 @@
       <node concept="OjmMv" id="6tw98Xd5KTA" role="2B_H8o">
         <node concept="19SGf9" id="6tw98Xd5KTB" role="OjmMu">
           <node concept="19SUe$" id="6tw98Xd5KTC" role="19SJt6">
-            <property role="19SUeA" value="A frame has the following format:&#10;- 0xAAAA two bytes with alternating 1 and 0 to mark the beginning of a package.&#10;  In case the CRC code is wrong, we cannot trust the size value.&#10;  Therefore, all data is ignored util this marker is recognised.&#10;- One byte with the size of the data in bytes (uint8)&#10;- The data&#10;- 2 bytes crc16 checksum with the high byte first&#10;  The checksum is calculated over the size byte and the data&#10;" />
+            <property role="19SUeA" value="The CRC encoder packages the data stream and adds a CRC checksum to detect corrupted data.&#10;&#10;A frame has the following format:&#10;- 0xAAAA two bytes with alternating 1 and 0 to mark the beginning of a package.&#10;  In case the CRC code is wrong, we cannot trust the size value.&#10;  Therefore, all data is ignored util this marker is recognised.&#10;- One byte with the size of the data in bytes (uint8)&#10;- The data&#10;- 2 bytes crc16 checksum with the high byte first&#10;  The checksum is calculated over the size byte and the data&#10;" />
           </node>
         </node>
       </node>

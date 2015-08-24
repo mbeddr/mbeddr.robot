@@ -14,13 +14,27 @@
         <child id="4185783222026475862" name="statements" index="3XIRFZ" />
       </concept>
     </language>
+    <language id="92d2ea16-5a42-4fdf-a676-c7604efe3504" name="de.slisson.mps.richtext">
+      <concept id="2557074442922380897" name="de.slisson.mps.richtext.structure.Text" flags="ng" index="19SGf9">
+        <child id="2557074442922392302" name="words" index="19SJt6" />
+      </concept>
+      <concept id="2557074442922438156" name="de.slisson.mps.richtext.structure.Word" flags="ng" index="19SUe$">
+        <property id="2557074442922438158" name="escapedValue" index="19SUeA" />
+      </concept>
+    </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
+      <concept id="8375407818529178006" name="com.mbeddr.core.base.structure.TextBlock" flags="ng" index="OjmMv">
+        <child id="8375407818529178007" name="text" index="OjmMu" />
+      </concept>
       <concept id="747084250476811597" name="com.mbeddr.core.base.structure.DefaultGenericChunkDependency" flags="ng" index="3GEVxB">
         <property id="747084250476874891" name="reexport" index="3GEa6x" />
         <reference id="747084250476878887" name="chunk" index="3GEb4d" />
       </concept>
     </language>
     <language id="6d11763d-483d-4b2b-8efc-09336c1b0001" name="com.mbeddr.core.modules">
+      <concept id="1028666136487545270" name="com.mbeddr.core.modules.structure.CommentModuleContent" flags="ng" index="2B_Gvg">
+        <child id="1028666136487550078" name="text" index="2B_H8o" />
+      </concept>
       <concept id="8967919205527146149" name="com.mbeddr.core.modules.structure.ReturnStatement" flags="ng" index="2BFjQ_">
         <child id="8967919205527146150" name="expression" index="2BFjQA" />
       </concept>
@@ -580,6 +594,18 @@
   </node>
   <node concept="N3F5e" id="2Z$TrjKDLd2">
     <property role="TrG5h" value="Multiplexer" />
+    <node concept="2B_Gvg" id="emA00AoWn4" role="N3F5h">
+      <node concept="OjmMv" id="emA00AoWn6" role="2B_H8o">
+        <node concept="19SGf9" id="emA00AoWn7" role="OjmMu">
+          <node concept="19SUe$" id="emA00AoWn8" role="19SJt6">
+            <property role="19SUeA" value="The arduino boards have multiplexer modules to increase the number of input pins. Before you can use a muliplexed pin, you have to select the source by writing the address to the output pins connected to the multiplexer. " />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2NXPZ9" id="emA00AoVQV" role="N3F5h">
+      <property role="TrG5h" value="empty_1440414966008_20" />
+    </node>
     <node concept="2EX0iR" id="74TmcPkGLm4" role="N3F5h">
       <property role="2OOxQR" value="true" />
       <property role="TrG5h" value="IMultiplexer" />
