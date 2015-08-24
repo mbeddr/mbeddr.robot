@@ -1,0 +1,4 @@
+[submodule "mbeddr.arduino"]
+	path = mbeddr.arduino
+	url = https://github.com/mbeddr/mbeddr.arduino.git
+	branch = robot
