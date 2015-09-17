@@ -13,8 +13,6 @@
     <dependency reexport="false">2ed50273-af07-4e30-9004-b1f89545178a(com.mbeddr.core.stdlib)</dependency>
   </dependencies>
   <usedLanguages>
-    <usedLanguage>3660caeb-9434-4a02-a7a1-ba0bbb2106d1(de.itemis.mbeddr.cimporter)</usedLanguage>
-    <usedLanguage>2068270c-d316-428e-a27b-e9094c3a918c(de.itemis.mbeddr.cimporter.lazy)</usedLanguage>
     <usedLanguage>0d04a6cc-773e-4069-b9b0-11884b2ff1c8(com.mbeddr.ext.units)</usedLanguage>
     <usedLanguage>3828799d-97c8-48d0-af8b-39b903457e1e(mbeddr.arduino.registers)</usedLanguage>
     <usedLanguage>3c4c8461-a533-4459-916a-dc0176793b4c(mbeddr.arduino.core)</usedLanguage>

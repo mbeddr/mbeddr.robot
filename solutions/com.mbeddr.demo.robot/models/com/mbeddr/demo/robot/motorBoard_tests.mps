@@ -4,6 +4,7 @@
   <languages>
     <use id="3828799d-97c8-48d0-af8b-39b903457e1e" name="mbeddr.arduino.registers" version="-1" />
     <use id="3c4c8461-a533-4459-916a-dc0176793b4c" name="mbeddr.arduino.core" version="-1" />
+    <use id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites" version="0" />
     <devkit ref="1a986be1-0ef0-4f9f-9d8a-81c3ea7227ae(com.mbeddr.physicalunits)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
   </languages>
@@ -56,6 +57,11 @@
       </concept>
       <concept id="4957503999941447492" name="com.mbeddr.ext.components.mock.structure.ParamterAssertion" flags="ng" index="1XQxzr">
         <reference id="4957503999941447495" name="param" index="1XQxzo" />
+      </concept>
+    </language>
+    <language id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites">
+      <concept id="1259468517902790203" name="com.mbeddr.mpsutil.favourites.structure.FavouritesAnnotation" flags="ng" index="2Y6aBa">
+        <property id="1259468517902790204" name="category" index="2Y6aBd" />
       </concept>
     </language>
     <language id="a9d69647-0840-491e-bf39-2eb0805d2011" name="com.mbeddr.core.statements">
@@ -217,6 +223,9 @@
       <concept id="6847490852670653132" name="com.mbeddr.core.embedded.structure.EmulatedRegisterKind" flags="ng" index="3VbeTE" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -658,6 +667,9 @@
     </node>
     <node concept="3GEVxB" id="6GJsmvb11i5" role="2OODSX">
       <ref role="3GEb4d" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
+    </node>
+    <node concept="2Y6aBa" id="7Kui8tN2$m" role="lGtFl">
+      <property role="2Y6aBd" value="Tests" />
     </node>
   </node>
   <node concept="2v9HqL" id="6ySuXqN_op5">
@@ -1928,6 +1940,9 @@
     </node>
     <node concept="3GEVxB" id="1a4kF8ykF$U" role="2OODSX">
       <ref role="3GEb4d" to="3y0n:1WTn9U1aQF1" resolve="stdio" />
+    </node>
+    <node concept="2Y6aBa" id="7Kui8tN0ZV" role="lGtFl">
+      <property role="2Y6aBd" value="Tests" />
     </node>
   </node>
   <node concept="N3F5e" id="1a4kF8ympyy">

@@ -4,6 +4,7 @@
   <languages>
     <use id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base" version="0" />
     <use id="61c69711-ed61-4850-81d9-7714ff227fb0" name="com.mbeddr.core.expressions" version="1" />
+    <use id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites" version="0" />
     <devkit ref="1a986be1-0ef0-4f9f-9d8a-81c3ea7227ae(com.mbeddr.physicalunits)" />
   </languages>
   <imports>
@@ -46,6 +47,11 @@
         <child id="4121031889271053290" name="expression" index="1Pfwd1" />
       </concept>
     </language>
+    <language id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites">
+      <concept id="1259468517902790203" name="com.mbeddr.mpsutil.favourites.structure.FavouritesAnnotation" flags="ng" index="2Y6aBa">
+        <property id="1259468517902790204" name="category" index="2Y6aBd" />
+      </concept>
+    </language>
     <language id="d4280a54-f6df-4383-aa41-d1b2bffa7eb1" name="com.mbeddr.core.base">
       <concept id="747084250476811597" name="com.mbeddr.core.base.structure.DefaultGenericChunkDependency" flags="ng" index="3GEVxB">
         <property id="747084250476874891" name="reexport" index="3GEa6x" />
@@ -58,6 +64,9 @@
       </concept>
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
+      <concept id="1133920641626" name="jetbrains.mps.lang.core.structure.BaseConcept" flags="ng" index="2VYdi">
+        <child id="5169995583184591170" name="smodelAttribute" index="lGtFl" />
+      </concept>
       <concept id="1169194658468" name="jetbrains.mps.lang.core.structure.INamedConcept" flags="ng" index="TrEIO">
         <property id="1169194664001" name="name" index="TrG5h" />
       </concept>
@@ -467,6 +476,9 @@
     <node concept="3GEVxB" id="5zHWU$G$0XR" role="7b7yl">
       <property role="3GEa6x" value="true" />
       <ref role="3GEb4d" to="cmgk:yGiRIF6Rhw" resolve="SIUnits" />
+    </node>
+    <node concept="2Y6aBa" id="7Kui8tM$Cb" role="lGtFl">
+      <property role="2Y6aBd" value="Config" />
     </node>
   </node>
 </model>

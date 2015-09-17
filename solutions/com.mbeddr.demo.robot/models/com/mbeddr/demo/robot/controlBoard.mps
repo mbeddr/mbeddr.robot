@@ -9,6 +9,7 @@
     <use id="13a36f90-83c5-4bf6-9dd6-70e455f1ef36" name="com.mbeddr.ext.components.statemachine" version="0" />
     <use id="3f445ef3-54ad-4ae5-a22d-91c3ce06375e" name="com.mbeddr.ext.components.concurrency" version="0" />
     <use id="e3420481-604b-464e-bc1b-06ecfc1f9dfc" name="com.mbeddr.ext.components.units" version="0" />
+    <use id="ca9e3cd7-a4a7-4d94-943e-79c063754879" name="com.mbeddr.mpsutil.favourites" version="0" />
     <devkit ref="1a986be1-0ef0-4f9f-9d8a-81c3ea7227ae(com.mbeddr.physicalunits)" />
     <devkit ref="24565007-e59f-42fc-ac10-da3836deec1c(com.mbeddr.components)" />
     <devkit ref="a4dac888-0788-4852-b4c0-f386bf6f2c0b(com.mbeddr.cc.reqtrace)" />
@@ -29,7 +30,9 @@
     <import index="qw21" ref="r:729c6d02-9aca-4967-acae-c7621c545ace(com.mbeddr.demo.robot.doc)" />
     <import index="lj5" ref="r:b42e5fe1-f23a-4ff2-83e0-383e9f39f02c(com.mbeddr.demo.robot.motorBoardMessages)" />
     <import index="lmqm" ref="r:cfd6a1d6-4872-45d9-960c-6290f12ecdc1(com.mbeddr.demo.robot.controllers)" />
+    <import index="qgbj" ref="r:80e07916-f79d-42fa-ab55-0ba6631b7d55(com.mbeddr.demo.robot.__spreferences.PlatformTemplates)" />
     <import index="cmgk" ref="r:679066bc-2da8-4932-a09c-5d2b3d47b911(com.mbeddr.ext.units.siunits)" implicit="true" />
+    <import index="el42" ref="f:diff_repository#r:5e0f9244-3c29-4e70-80f6-7af6de4c8cea(com.mbeddr.demo.robot.controlBoard@repository)" implicit="true" />
   </imports>
   <registry>
     <language id="3828799d-97c8-48d0-af8b-39b903457e1e" name="mbeddr.arduino.registers">
@@ -1194,16 +1197,7 @@
             <ref role="2EWCuR" node="2XT_MLHaPwW" resolve="portD" />
             <ref role="XcPQd" to="bs9u:74TmcPjVXgm" resolve="port" />
           </node>
-          <node concept="2VclpC" id="74TmcPkZan3" role="lGtFl">
-            <node concept="2VclrF" id="74TmcPkZan4" role="2Vcluh">
-              <property role="2Vclpx" value="1551.0" />
-              <property role="2Vclpz" value="438.32501220703125" />
-            </node>
-            <node concept="2VclrF" id="74TmcPkZan5" role="2Vcluh">
-              <property role="2Vclpx" value="1551.0" />
-              <property role="2Vclpz" value="630.3250122070312" />
-            </node>
-          </node>
+          <node concept="2VclpC" id="74TmcPkZan3" role="lGtFl" />
         </node>
         <node concept="2EWCuV" id="74TmcPjXvIJ" role="5JtDH">
           <property role="TrG5h" value="muxAddr1" />
@@ -1319,16 +1313,7 @@
             <ref role="2EWCuR" node="74TmcPjXe$s" resolve="portC" />
             <ref role="XcPQd" to="bs9u:74TmcPjVXgm" resolve="port" />
           </node>
-          <node concept="2VclpC" id="74TmcPkZanN" role="lGtFl">
-            <node concept="2VclrF" id="74TmcPkZanO" role="2Vcluh">
-              <property role="2Vclpx" value="1526.0" />
-              <property role="2Vclpz" value="846.3250122070312" />
-            </node>
-            <node concept="2VclrF" id="74TmcPkZanP" role="2Vcluh">
-              <property role="2Vclpx" value="1526.0" />
-              <property role="2Vclpz" value="942.3250122070312" />
-            </node>
-          </node>
+          <node concept="2VclpC" id="74TmcPkZanN" role="lGtFl" />
         </node>
         <node concept="JAGxh" id="74TmcPjXIPJ" role="5JtDH" />
         <node concept="2EWCuV" id="74TmcPjXIEc" role="5JtDH">
@@ -1401,16 +1386,7 @@
             <ref role="2EWCuR" node="74TmcPjXwXx" resolve="portB" />
             <ref role="XcPQd" to="bs9u:74TmcPjVXgm" resolve="port" />
           </node>
-          <node concept="2VclpC" id="74TmcPkZaoi" role="lGtFl">
-            <node concept="2VclrF" id="74TmcPkZaoj" role="2Vcluh">
-              <property role="2Vclpx" value="1526.0" />
-              <property role="2Vclpz" value="534.3250122070312" />
-            </node>
-            <node concept="2VclrF" id="74TmcPkZaok" role="2Vcluh">
-              <property role="2Vclpx" value="1526.0" />
-              <property role="2Vclpz" value="750.3250122070312" />
-            </node>
-          </node>
+          <node concept="2VclpC" id="74TmcPkZaoi" role="lGtFl" />
         </node>
         <node concept="2EWCuV" id="4TJtxzRb_Ug" role="5JtDH">
           <property role="TrG5h" value="txLed" />
@@ -5528,16 +5504,16 @@
                 </node>
               </node>
               <node concept="1LFeb9" id="7mELSK7W8QF" role="1KoBSX">
-                <ref role="1zztin" node="7mELSK5D8vV" resolve="driveForward" />
+                <ref role="1zztin" to="el42:7mELSK5D8vV" resolve="driveForward" />
                 <node concept="349iI2" id="7mELSK7W8QG" role="2qxFSM">
-                  <ref role="1bNv6r" node="5MdZHRtneLc" resolve="clock100Hz" />
+                  <ref role="1bNv6r" to="el42:5MdZHRtneLc" resolve="clock100Hz" />
                 </node>
                 <node concept="3Tl9Jr" id="7mELSK7W8QH" role="1zz7me">
                   <node concept="3TlMh9" id="7mELSK7W8QI" role="3TlMhJ">
                     <property role="2hmy$m" value="400" />
                   </node>
                   <node concept="EbZIE" id="7mELSK7W8QJ" role="3TlMhI">
-                    <ref role="EbZID" node="5MdZHRtngZ8" resolve="ticks" />
+                    <ref role="EbZID" to="el42:5MdZHRtngZ8" resolve="ticks" />
                   </node>
                 </node>
                 <node concept="2VclpC" id="7mELSK8byEq" role="lGtFl">
