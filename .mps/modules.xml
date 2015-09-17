@@ -2,6 +2,9 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/_spreferences/CodeReviewPreferences/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/PlatformTemplates/module.msd" folder="_spreferences" />
+      <modulePath path="$PROJECT_DIR$/_spreferences/TypeSizeConfiguration/module.msd" folder="_spreferences" />
       <modulePath path="$PROJECT_DIR$/mbeddr.arduino/languages/mbeddr.arduino.core/mbeddr.arduino.core.mpl" folder="mbeddr.arduino" />
       <modulePath path="$PROJECT_DIR$/mbeddr.arduino/languages/mbeddr.arduino.interrupts/mbeddr.arduino.interrupts.mpl" folder="mbeddr.arduino" />
       <modulePath path="$PROJECT_DIR$/mbeddr.arduino/languages/mbeddr.arduino.registers/mbeddr.arduino.registers.mpl" folder="mbeddr.arduino" />
